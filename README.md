@@ -8,7 +8,7 @@ This web server is implemented as an [Azure Function](https://azure.microsoft.co
 ## Development
 ### Dependencies
 * [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) (needed for local development environment setup)
-* [Node.js](https://nodejs.org) 11.6.0 ([nvm](https://github.com/creationix/nvm) is recommended)
+* [Node.js](https://nodejs.org) 10.15.0 ([nvm](https://github.com/creationix/nvm) is recommended)
 
 ### Install
 Once you've installed the above dependencies and cloned this repository, install NPM dependencies.
