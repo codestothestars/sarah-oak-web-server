@@ -4,6 +4,9 @@
     "url": "https://github.com/codestothestars/sarah-oak-web-server/issues"
   },
   "description": "The web server for the public website of Sarah Oak.",
+  "devDependencies": {
+    "azure-functions-core-tools": "2.3.199"
+  },
   "homepage": "https://github.com/codestothestars/sarah-oak-web-server",
   "license": "GPL-3.0",
   "main": "index.js",
