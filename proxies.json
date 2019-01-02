@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "assets": {
+            "backendUri": "https://sarahoakweb.z13.web.core.windows.net/assets/{path}",
+            "matchCondition": {
+                "route": "/assets/{*path}"
+            }
+        },
+        "home": {
+            "backendUri": "https://sarahoakweb.z13.web.core.windows.net/",
+            "matchCondition": {
+                "route": "/{*path}"
+            }
+        },
+        "topLevelFiles": {
+            "backendUri": "https://sarahoakweb.z13.web.core.windows.net/{path}.{extension}",
+            "matchCondition": {
+                "route": "/{path}.{extension}"
+            }
+        }
+    }
+}
