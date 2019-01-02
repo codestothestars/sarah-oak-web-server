@@ -16,6 +16,7 @@
     "url": "git+https://github.com/codestothestars/sarah-oak-web-server.git"
   },
   "scripts": {
+    "install": "func settings encrypt && func settings add FUNCTIONS_WORKER_RUNTIME node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.0.0"
